@@ -59,7 +59,7 @@ class ComponentTemplateModel(ChangeLoggedModel, TrackingModelMixin):
     )
     description = models.CharField(
         verbose_name=_('description'),
-        max_length=200,
+        max_length=255,
         blank=True
     )
 
